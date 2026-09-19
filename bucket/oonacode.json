@@ -1,6 +1,6 @@
 {
   "##": "OonaCode Scoop manifest. version/url/hash are patched by packaging/scripts/bump-manifests.mjs at release time; the all-zero hash is a placeholder until the first release. Every URL here must RESOLVE (`scoop info` prints homepage + license, `scoop install` fetches url), so they all sit on the operator's own public origin — never on an unregistered domain and never on the private source repo, whose release URLs 404 for everyone and leak the repo path. The deployment serves/redirects /releases/download/* to the artefact store; OONACODE_DOWNLOAD_BASE points a bump at another public artefact host. check-manifests.mjs enforces all of this. Publish this file into the public Scoop bucket — `scoop bucket add oonacode <bucket-url>; scoop install oonacode`.",
-  "version": "0.3.83",
+  "version": "0.3.84",
   "description": "OonaCode — Windows-first multi-provider coding agent: the oona CLI, headless host service and local web UI (Claude Code engine, any model provider, personal remote access).",
   "homepage": "https://oonacode.oonak.ai",
   "license": {
@@ -8,8 +8,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://oonacode.oonak.ai/releases/download/v0.3.83/oonacode-win32-x64.zip",
-      "hash": "5a28e8fee1226bc2c38369ca7a8e1cff53654904e55d4347f80123c8b015d51e"
+      "url": "https://oonacode.oonak.ai/releases/download/v0.3.84/oonacode-win32-x64.zip",
+      "hash": "567487c6ec5eb3d7d989cb41fe7132427e314ca8ead66b2465075962eeac7ce4"
     }
   },
   "bin": ["oona.exe", ["oona.exe", "oonacode"]],
